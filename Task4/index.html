@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Login Authentication System</title>
+</head>
+<body>
+    <div class="container">
+        <div id="greeting">
+            <h1>Hello User!</h1>
+        </div>
+        <div id="buttonContainer">
+            <button id="registerToggle" onclick="toggleForm('registerForm')">Register</button>
+            <button id="loginToggle" onclick="toggleForm('loginForm')">Login</button>
+        </div>
+        <form id="registerForm" class="form">
+            <label for="username">Username:</label>
+            <input type="text" id="username" placeholder="Enter your username" required>
+            <label for="password">Password:</label>
+            <input type="password" id="password" placeholder="Enter your password" required>
+            <button type="button" onclick="register()">Register</button>
+        </form>
+        <form id="loginForm" class="form">
+            <label for="loginUsername">Username:</label>
+            <input type="text" id="loginUsername" placeholder="Enter your username" required>
+            <label for="loginPassword">Password:</label>
+            <input type="password" id="loginPassword" placeholder="Enter your password" required>
+            <button type="button" onclick="login()">Login</button>
+        </form>
+        <p id="message"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
