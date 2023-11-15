@@ -1,0 +1,182 @@
+    body {
+        font-family: Arial, sans-serif;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url('https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-c-08_1-ksh6mza3.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=f584d8501c27c5f649bc2cfce50705c0'); 
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        margin: 0;
+        padding: 0;
+    }
+    
+    header {
+        font-family: 'Times New Roman', Times, serif;
+        font-size: 21px;
+        color: #fff;
+        padding: 1in;
+        text-align: left;
+        width: fit-content;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 5px;
+        margin-bottom: 1rem;
+    }
+    
+    header a {
+        text-decoration: none;
+        color: inherit;
+    }
+    
+    header a:hover {
+        text-decoration: underline;
+    }
+    
+    h1 {
+        font-size: 3em;
+        font-family: 'Times New Roman', Times, serif;
+        margin-bottom: 0.5rem;
+        color: #fff;
+        text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    }
+    
+    h2 {
+        font-size: 2.4em;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    
+    main {
+        margin: 1rem;
+    }
+    
+    main p {
+        margin-bottom: 1rem;
+    }
+    
+    section {
+        background-color: #fff;
+        border-radius: 5px;
+        padding: 1rem;
+        margin-bottom: 1rem;
+        box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    }
+    
+    section p {
+        line-height: 1.6;
+    }
+    
+    footer {
+        font-family: 'Times New Roman', Times, serif;
+        background-color: #333;
+        color: #fff;
+        padding: 0.5rem;
+        text-align: center;
+        position: fixed;
+        width: 100%;
+        bottom: 0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    footer:hover {
+        color: #fff;
+        background-color: #333;
+        border-bottom: none;
+        margin: 0 1rem;
+        border-bottom: 2px solid #fff;
+    }
+@media (max-width: 992px) {
+    /* Styles for medium-sized screens */
+    header {
+        font-size: 18px;
+    }
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.8em;
+    }
+    main {
+        margin: 0.5rem;
+    }
+    section {
+        padding: 0.8rem;
+    }
+    footer {
+        padding: 0.3rem;
+        margin: 0 0.5rem;
+    }
+}
+
+@media (max-width: 768px) {
+    /* Styles for small screens (tablets) */
+    header {
+        padding: 0.5rem;
+        text-align: center;
+    }
+    header h1 {
+        font-size: 2em;
+    }
+    header h2 {
+        font-size: 1.2em;
+    }
+    main {
+        margin: 0.5rem;
+        text-align: justify;
+    }
+    section {
+        padding: 0.8rem;
+    }
+    footer {
+        padding: 0.3rem;
+        margin: 0 0.5rem;
+    }
+    img {
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 576px) {
+    /* Styles for extra small screens (phones) */
+    h1 {
+        font-size: 1.5em;
+    }
+    h2 {
+        font-size: 1.2em;
+    }
+    main {
+        margin: 0.5rem;
+    }
+    section {
+        padding: 0.8rem;
+    }
+    footer {
+        padding: 0.3rem;
+        margin: 0 0.5rem;
+    }
+}
+/* Your existing styles */
+
+.task-inputs {
+    display: flex;
+    gap: 10px;
+}
+
+.task-details {
+    margin-top: 20px;
+}
+
+/* Additional styles for task details */
+.task-details h2 {
+    font-size: 1.8em;
+    margin-bottom: 10px;
+}
+
+.task-details input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
